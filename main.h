@@ -20,7 +20,6 @@
 
 /**
  * struct fmt - Struct op
- *
  * @fmt: The format.
  * @fn: The function associated.
  */
@@ -33,9 +32,14 @@ struct fmt
 
 /**
  * typedef struct fmt fmt_t - Struct op
+<<<<<<< HEAD
  *
  * @fmt: Formatting.
  * @fm_t: An associated function.
+=======
+ * @fmt: The format.
+ * @fm_t: The function associated.
+>>>>>>> bde045d200becb6622da0582b90e1b7e97083446
  */
 typedef struct fmt fmt_t;
 
@@ -114,4 +118,4 @@ int is_digit(char);
 long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
-#endif /* MAIN_H */
+#endif
