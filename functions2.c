@@ -2,9 +2,9 @@
 
 /****************** PRINT POINTER ******************/
 /**
- * print_pointer - Prints the value of a pointer variable
+ * print_pointer - The value of a pointer variable is printed
  * @types: List a of arguments
- * @buffer: Buffer array to handle print
+ * @buffer: Buffer array that handle print
  * @flags:  Calculates active flags
  * @width: get width
  * @precision: Precision specification
@@ -137,7 +137,7 @@ int print_reverse(va_list types, char buffer[],
 }
 /************************* PRINT A STRING IN ROT13 *************************/
 /**
- * print_rot13string - Print a string in rot13.
+ * print_rot13string - Prints a string in rot13.
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
